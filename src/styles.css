@@ -1,0 +1,232 @@
+h1 {
+	text-align: center;
+	margin: 35px;
+}
+h2 {
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 500;
+ color: yellow;
+ opacity: 0.6;
+ font-size: 1.5em;
+ text-align: center;
+ text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+	font-size: 20px;
+	
+}
+h3{
+ font-weight: 500;
+ color: yellow;
+ opacity: 0.6;
+ font-size: 1.5em;
+ text-align: center;
+ text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+body{
+	font-family: 'Roboto Slab', serif;
+    background: linear-gradient(to right,black,yellow);
+}
+.form1{
+	background: rgb(225,225,225,0,06);
+	padding:3em;
+	height: 320px;
+	width: 340px;
+	border-radius:1px solid rgba(225,225,225,0.8);
+	border-top: 1px solid rgba(225,225,225,0.6);
+	-webkit-backdrop-filter: blur(10px);
+	bacdrop-filter: blur(10px);
+	box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+	position: relative;
+	-webkit-transition: all 0.2s ease-in-out;
+    transform: all 0.2s ease-in-out;
+}
+.form2{
+	background: rgb(225,225,225,0,06);
+	padding:3em;
+	height: 240px;
+	width: 340px;
+	border-radius:1px solid rgba(225,225,225,0.8);
+	border-top: 1px solid rgba(225,225,225,0.6);
+	-webkit-backdrop-filter: blur(10px);
+	bacdrop-filter: blur(10px);
+	box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+	position: relative;
+	-webkit-transition: all 0.2s ease-in-out;
+    transform: all 0.2s ease-in-out;
+}
+.form3{
+	background: rgb(225,225,225,0,06);
+	padding:3em;
+	height: 520px;
+	width: 340px;
+	border-radius:1px solid rgba(225,225,225,0.8);
+	border-top: 1px solid rgba(225,225,225,0.6);
+	-webkit-backdrop-filter: blur(10px);
+	bacdrop-filter: blur(10px);
+	box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+	position: relative;
+	-webkit-transition: all 0.2s ease-in-out;
+    transform: all 0.2s ease-in-out;
+}
+  form p{
+  	font-size: 1.0em;
+  	color: yellow;
+text-align: center;
+text-overflow: hidden;
+opacity: 0.7;
+ text-align: center;
+ text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+
+  }   
+.container{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%)
+   
+}
+.container2{
+position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.container3{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.container4{
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-20%,-50%);
+}
+.emailborder{
+	margin: 14px auto;
+	border-radius: 4px;
+}
+
+.pasborder{
+	margin: 12px auto;
+	border-radius: 4px;
+	transform: all 1.8s ease-in-out;
+}
+.aborder{
+    margin: 10px auto;
+	border-radius: 4px;
+}
+.head{
+	text-align: center;
+	font-weight: 150px;
+
+	}
+.text{
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+font-size: 18px;
+text-decoration-color: green;
+text-overflow: hidden;
+margin-left: 8px;
+}
+ 
+.info{
+	font-family: 'Roboto Slab', serif;
+}
+form a{
+	text-decoration:none;
+	color: yellow;
+	font-size: 15px;
+	margin-left:8px;
+	opacity: 0.7;
+}
+form a:hover{
+	 
+}
+form a:active{
+	text-shadow: none;
+}
+form input{
+	background: transparent;
+	border: none;
+	border-radius:1px solid rgba(225,225,225,0.8);
+	border-top: 1px solid rgba(225,225,225,0.9);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+	box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+	color: white;
+	opacity: 0.8;
+	-webkit-transition: all 0.2s ease-in-out;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+form input:hover{
+	background: rgba(225,225,225,0.1);
+}
+form input[type="name"]:focus,
+form input[type="number"]:focus,
+form input[type="email"]:focus,
+form input[type="password"]:focus{
+	background: rgba(225,225,225,0.1);
+	box-shadow: 3px 3px 50px 8px rgba(0,0,0,0.2);
+}
+
+::placeholder{
+	color: yellow;
+	opacity: 0.7;
+	font-weight: 400;
+	text-shadow: 2px 3px 6px rgba(0,0,0,0.5);
+}
+
+[type="name"]{
+	width:100%;
+    padding: 8px;
+	border-radius: 4px;
+	font-family: 'Roboto Slab', serif;
+}
+[type="age"]{
+	width:100%;
+    padding: 8px;
+	border-radius: 4px;
+	font-family: 'Roboto Slab', serif;
+}
+[type="email"]{
+	width:100%;
+    padding: 8px;
+	border-radius: 4px;
+	font-family: 'Roboto Slab', serif;
+
+	}
+
+[type="password"] {
+	width: 100%;
+font-family: 'Roboto Slab', serif;
+padding: 8px;
+text-overflow: hidden;
+}
+
+[type="submit"]{
+	width: 100%;
+	background: black;
+	color: yellow;
+	border: none;
+	padding: 10px 20px;
+	text-align: center;
+	border-radius: 8px;
+	margin-top: 4px;
+	margin-left: 8px;
+	margin-bottom: 8px;
+	float: right;
+    border-radius:1px solid rgba(225,225,225,0.8);
+	border-top: 1px solid rgba(225,225,225,0.9);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+	box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+}
+.submit{
+	font-family: 'Roboto Slab', serif;
+}
+.result {
+	color: red;
+	text-align: center;
+}
