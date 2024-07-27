@@ -1,0 +1,291 @@
+h1 {
+	text-align: center;
+	margin: 35px;
+}
+h2 {
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 500;
+ color: yellow;
+ opacity: 0.6;
+ font-size: 1.5em;
+ text-align: center;
+ text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+	font-size: 20px;
+	
+}
+h3{
+ font-weight: 500;
+ color: yellow;
+ opacity: 0.6;
+ font-size: 1.5em;
+ text-align: center;
+ text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+body{
+	font-family: 'Roboto Slab', serif;
+    background: linear-gradient(to right,black,yellow);
+		margin: 0;
+	padding: 0;
+	display: flex;
+	height:auto;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+		
+}
+.main{
+	width: 450px;
+	height: 500px;
+	overflow: hidden;
+	border-radius: 10px;
+	box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+}
+#chk{
+	display: none;
+}
+.signup{
+	position:relative;
+	height: 100%;
+	width:100%;
+}
+.login{
+	background: black;
+	height: 500px;
+	border-radius: 60% / 10%;
+	transform: translateY(-100px);
+	transition: .8s ease-in-out;
+}
+label{
+	font-size: 2.3em;
+	justify-content: center;
+	display: flex;
+	margin: 5px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .5s ease-in-out;
+	opacity: 80%;
+}
+.login label{
+	transform: scale(.6);
+}
+#chk:checked ~ .login{
+	transform: translateY(-380px);
+}
+#chk:checked ~ .login label{
+	transform: scale(1);
+}
+#chk:checked ~ .signup label{
+	transform: scale(.6);
+}
+.form1{
+	padding:3em;
+	color: yellow;
+	-webkit-backdrop-filter: blur(10px);
+	bacdrop-filter: blur(10px);
+	-webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.form2{
+	padding:4em 3em;
+	
+	height: 240px;
+	width: 340px;
+	-webkit-bacdrop-filter: blur(10px);
+	bacdrop-filter: blur(10px);
+	box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+	position: relative;
+	-webkit-transition: all 0.2s ease-in-out;
+    transform: all 0.2s ease-in-out;
+}
+.form3{
+	color: black;
+	padding: 4em;
+
+	border-radius:1px solid rgba(225,225,225,0.8);
+	border-top: 1px solid rgba(225,225,225,0.6);
+	-webkit-backdrop-filter: blur(10px);
+	bacdrop-filter: blur(10px);
+	-webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+  form p{
+  	font-size: 1.0em;
+text-align: center;
+text-overflow: hidden;
+opacity: 0.7;
+ text-align: center;
+ text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  }   
+
+.container3{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.container4{
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-20%,-50%);
+}
+.emailborder{
+	margin: 14px auto;
+	border-radius: 4px;
+}
+
+.pasborder{
+	margin: 12px auto;
+	border-radius: 4px;
+	transform: all 1.8s ease-in-out;
+}
+.aborder{
+    margin: 10px auto;
+	border-radius: 4px;
+}
+.head{
+	text-align: center;
+	font-weight: 150px;
+
+	}
+.text{
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+font-size: 18px;
+text-decoration-color: green;
+text-overflow: hidden;
+margin-left: 8px;
+}
+ 
+.info{
+	font-family: 'Roboto Slab', serif;
+}
+form a{
+	text-decoration:none;
+	font-size: 15px;
+	margin-left:8px;
+	opacity: 0.7;
+}
+form a:hover{
+	 
+}
+form a:active{
+	text-shadow: none;
+}
+form input{
+	background: transparent;
+	border: none;
+	border-radius:1px solid rgba(225,225,225,0.8);
+	border-top: 1px solid rgba(225,225,225,0.9);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+	box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+	color: white;
+	opacity: 0.8;
+	-webkit-transition: all 0.2s ease-in-out;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+form input:hover{
+	background: rgba(225,225,225,0.1);
+}
+form input[type="name"]:focus,
+form input[type="number"]:focus,
+form input[type="email"]:focus,
+form input[type="password"]:focus{
+	background: rgba(225,225,225,0.1);
+	box-shadow: 3px 3px 50px 8px rgba(0,0,0,0.2);
+}
+
+.login ::placeholder{
+	color: yellow;
+	font-weight: 400;
+	text-shadow: 2px 3px 6px rgba(0,0,0,0.5);
+}
+.signup ::placeholder{
+	color: black;
+	font-weight: 400;
+	text-shadow: 2px 3px 6px rgba(0,0,0,0.5);
+}
+
+[type="name"]{
+	width:100%;
+    padding: 8px;
+	border-radius: 4px;
+	font-family: 'Roboto Slab', serif;
+}
+[type="number"]{
+	width:100%;
+    padding: 8px;
+	border-radius: 4px;
+	font-family: 'Roboto Slab', serif;
+}
+[type="email"]{
+	width:100%;
+    padding: 8px;
+	border-radius: 4px;
+	font-family: 'Roboto Slab', serif;
+
+	}
+
+[type="password"] {
+	width: 100%;
+font-family: 'Roboto Slab', serif;
+padding: 8px;
+text-overflow: hidden;
+}
+
+.signup [type="submit"]{
+	width: 100%;
+	background: black;
+	color: yellow;
+	border: none;
+	padding: 10px 20px;
+	text-align: center;
+	border-radius: 8px;
+	margin-top: 4px;
+	margin-left: 9px;
+	margin-bottom: 8px;
+	float: right;
+    border-radius:1px solid rgba(225,225,225,0.8);
+	border-top: 1px solid rgba(225,225,225,0.9);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+	box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+}
+.login [type="submit"]{
+	width: 100%;
+	background: yellow;
+	color: black;
+	border: none;
+	padding: 10px 20px;
+	text-align: center;
+	border-radius: 8px;
+	margin-top: 4px;
+	margin-left: 9px;
+	margin-bottom: 8px;
+	float: right;
+    border-radius:1px solid rgba(225,225,225,0.8);
+	border-top: 1px solid rgba(225,225,225,0.9);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+	box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+}
+
+.submit{
+	font-family: 'Roboto Slab', serif;
+}
+.result {
+	color: red;
+	text-align: center;
+}
+button{
+	border: none;
+	color: yellow;
+	background-color: transparent;
+	font-size: 1rem;
+}
+button:hover{
+	text-decoration: underline;
+	color:goldenrod;
+}
